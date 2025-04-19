@@ -1,15 +1,59 @@
-# Projeto 'FitAgenda' - Desenvolvimento Para Dispositivos Móveis
+# 🏋️‍♂️ FitAgenda - App para Academia
 
-### Descrição
-* Aplicação móvel para alunos de uma academia.
+Aplicativo móvel feito com **Ionic + Angular** focado no acompanhamento de alunos de uma academia.
 
-### Dependências Básicas
-* `node` : https://nodejs.org/pt 
-* `ionic`: https://ionicframework.com/ 
 
-### Instruções
-* Clone o repositório e, dentro de seu diretório correspondente, execute `npm install`
-* Execute `ionic serve`
 
-### Notas
-* Aplicação desenvolvida para fins acadêmicos.
+---
+
+## ✨ Tecnologias & Ferramentas
+
+| Ferramenta | Versão |
+| ---------- | ------ |
+| Node.js    | v20.x  |
+| npm        | v10.x  |
+| Ionic CLI  | v7.x   |
+| Angular    | v16.x  |
+| ngx-mask   | ^17.x  |
+
+Outras bibliotecas:
+
+- `@ionic/angular`
+- `@angular/forms`
+- `ngx-mask`
+
+---
+
+## 🛠️ Como rodar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/fitagenda.git
+cd fitagenda
+```
+
+2. Instale as dependências:
+
+```bash
+npm install
+```
+
+3. Inicie a aplicação:
+
+```bash
+ionic serve
+```
+
+---
+
+## 📝 Notas
+
+- Projeto desenvolvido para fins acadêmicos
+- Ainda em desenvolvimento
+
+---
+
+## 📸 Screenshots
+<img src="./extra/screenshot1.png">
+---
