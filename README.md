@@ -51,6 +51,8 @@ ionic serve
 
 ## 📸 Screenshots
 
-<img src="./extra/sc1.png">
-<img src="./extra/sc2.png">
+<img src="./extra/sc1.png" alt="Tela de Perfil" title="Tela de Perfil" width="300">
+<img src="./extra/sc2.png" alt="Tela de Agenda" title="Tela de Agenda" width="300">
+<img src="./extra/sc3.png" alt="Tela de Reservas" title="Tela de Reservas" width="300">
+<img src="./extra/sc4.png" alt="Página de Confirmação" title="Página de Confirmação" width="300">
 ---
