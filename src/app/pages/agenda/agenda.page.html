@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title>Agenda</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="ion-padding">
+    <ion-card *ngFor="let item of agenda">
+      <ion-card-header>
+        <ion-card-title>{{ item.titulo }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p><strong>Data:</strong> {{ item.data }}</p>
+        <p><strong>Horário:</strong> {{ item.horario }}</p>
+        <p><strong>Descrição:</strong> {{ item.descricao }}</p>
+        <p><strong>Local:</strong> {{item.local}}</p>
+        <ion-button expand="full" color="success" (click)="reservar(item)">
+          Reservar
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
+  

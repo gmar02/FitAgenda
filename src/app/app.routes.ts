@@ -11,6 +11,11 @@ export const routes: Routes = [
   //   loadComponent: () => import("./pages") 
   // },
   {
+    path: 'agenda',
+    loadComponent: () => 
+      import('./pages/agenda/agenda.page').then((m) => m.AgendaPage),
+  },
+  {
     path: 'perfil',
     loadComponent: () =>
       import('./pages/perfil/perfil.page').then((m) => m.PerfilPage),
