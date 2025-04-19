@@ -55,5 +55,4 @@ ionic serve
 ---
 
 ## 📸 Screenshots
-<img src="./extra/screenshot1.png">
 ---
