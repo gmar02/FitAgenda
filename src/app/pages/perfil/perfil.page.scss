@@ -1,0 +1,56 @@
+ion-content {
+  --padding-top: 24px;
+  --padding-start: 16px;
+  --padding-end: 16px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  ion-item {
+    --border-radius: 12px;
+    --inner-padding-end: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+
+  ion-label {
+    font-weight: 600;
+    color: #333;
+    font-size: 15px;
+  }
+
+  ion-input {
+    font-size: 16px;
+    padding-top: 8px;
+  }
+
+  ion-note {
+    margin-top: -10px;
+    padding-left: 8px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  ion-button {
+    margin-top: 24px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      filter: brightness(1.05);
+    }
+  }
+}
+
+.native-input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 100%;
+}

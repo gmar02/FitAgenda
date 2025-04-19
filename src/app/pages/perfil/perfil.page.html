@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <form [formGroup]="perfilForm" (ngSubmit)="onSubmit()">
+    <ion-item>
+      <ion-label position="stacked">Nome</ion-label>
+      <ion-input
+        formControlName="nome"
+        placeholder="Digite seu nome aqui"
+      ></ion-input>
+    </ion-item>
+    <ion-note
+      color="danger"
+      *ngIf="perfilForm.get('nome')?.touched && perfilForm.get('nome')?.hasError('required')"
+    >
+      Nome é obrigatório.
+    </ion-note>
+
+    <ion-item>
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input
+        formControlName="email"
+        type="email"
+        placeholder="Digite seu e-mail aqui"
+      ></ion-input>
+    </ion-item>
+    <ion-note
+      color="danger"
+      *ngIf="perfilForm.get('email')?.touched && perfilForm.get('email')?.hasError('required')"
+    >
+      Email é obrigatório.
+    </ion-note>
+    <ion-note
+      color="danger"
+      *ngIf="perfilForm.get('email')?.touched && perfilForm.get('email')?.hasError('email')"
+    >
+      Email inválido.
+    </ion-note>
+
+    <ion-item>
+      <ion-label position="stacked">Telefone</ion-label>
+      <!-- <ion-input
+        formControlName="telefone"
+        type="tel"
+        placeholder="(00) 00000-0000"
+        mask="(00) 00000-0000"
+      ></ion-input> -->
+
+      <input
+        type="tel"
+        placeholder="(00) 00000-0000"
+        formControlName="telefone"
+        mask="(00) 00000-0000"
+        ngxMask
+        class="native-input sc-ion-input-md"
+      />
+    </ion-item>
+
+    <ion-button expand="block" type="submit" class="ion-margin-top"
+      >Salvar</ion-button
+    >
+  </form>
+</ion-content>
