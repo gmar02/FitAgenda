@@ -1,7 +1,6 @@
 # 🏋️‍♂️ FitAgenda - App para Academia
 
-Aplicativo móvel feito com **Ionic + Angular** focado no acompanhamento de alunos de uma academia.
----
+## Aplicativo móvel feito com **Ionic + Angular** focado no acompanhamento de alunos de uma academia.
 
 ## ⚙️ Dependências
 
@@ -23,20 +22,20 @@ Outros:
 
 ## 💻 Rodar o projeto
 
-* Clonar o repositório
+- Clonar o repositório
 
 ```bash
 git clone https://github.com/seu-usuario/fitagenda.git
 cd fitagenda
 ```
 
-* Instalar dependências
+- Instalar dependências
 
 ```bash
 npm install
 ```
 
-* Inicializar o app
+- Inicializar o app
 
 ```bash
 ionic serve
@@ -51,6 +50,7 @@ ionic serve
 ---
 
 ## 📸 Screenshots
+
 <img src="./extra/sc1.png">
 <img src="./extra/sc2.png">
 ---

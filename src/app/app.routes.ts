@@ -12,8 +12,16 @@ export const routes: Routes = [
   // },
   {
     path: 'agenda',
-    loadComponent: () => 
+    loadComponent: () =>
       import('./pages/agenda/agenda.page').then((m) => m.AgendaPage),
+  },
+  {
+    path: 'reserva',
+    loadComponent: () => import('./pages/reserva/reserva.page').then(m => m.ReservaPage),
+  },
+  {
+    path: 'confirmacao',
+    loadComponent: () => import('./pages/confirmacao/confirmacao.page').then(m => m.ConfirmacaoPage),
   },
   {
     path: 'perfil',
